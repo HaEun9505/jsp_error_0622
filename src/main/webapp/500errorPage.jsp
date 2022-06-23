@@ -3,6 +3,7 @@
 <!-- 에러 처리 페이지 설정 -->
 <%@ page isErrorPage="true" %>
 <% response.setStatus(200); %>
+<!-- 정상적인 페이지(200) -->
 <!DOCTYPE html>
 <html>
 <head>
